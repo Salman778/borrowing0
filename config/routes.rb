@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  devise_for :users
   # https://github.com/plataformatec/devise
   # user authentication
   root to: "users#index"
